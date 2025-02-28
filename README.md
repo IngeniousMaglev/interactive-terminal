@@ -1,4 +1,4 @@
-# Terminal Porfolio Website by ninja-hattori
+# Terminal Porfolio Website by ingenious-maglev
 
 ![preview.jpg](img/preview.jpg)
 
