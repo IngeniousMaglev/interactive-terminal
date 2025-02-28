@@ -5,7 +5,7 @@ let repo = 'https://github.com/IngeniousMaglev/interactive-terminal';
 let facebook = 'https://www.facebook.com/shibeswar.singha';
 let existCommands = [
   'about',
-  'achievements',
+  //  'achievements',
   'banner',
   'certificates',
   'clear',
@@ -29,21 +29,15 @@ about = [
   '<br>',
   'A highly motivated and seasoned <span style="font-weight:bold">Cybersecurity Professional</span> with over three years of experience ',
   '<br>',
-  'I am currently working as an IAM analyst at Tata Consultancy Services.'
+  'I am currently working as an <span style="font-weight:bold">IAM analyst</span> at <span style="font-weight:bold">Tata Consultancy Services.</span>'
 ];
 
 
 achievements = [
   'Here comes some of my achievements',
+  // '<br>',
+  // '<span>Acknowledged by <span style="font-weight:bold">NCIIPC</span> for reporting a vulnerability in the website of the <span style="font-weight:bold">Ministry of Heavy Industries</span></span>',
   '<br>',
-  '<span>Acknowledged by <span style="font-weight:bold">NCIIPC</span> for reporting a vulnerability in the website of the <span style="font-weight:bold">Ministry of Heavy Industries</span></span>',
-  '<br>',
-  '<span>Acknowledged by <span style="font-weight:bold">NCIIPC</span> for reporting a vulnerability in the website of the <span style="font-weight:bold">Karnataka Government App\'s Website</span></span>',
-  '<br>',
-  '<span>Acknowledged by <span style="font-weight:bold">NCIIPC</span> for reporting a vulnerability in the website of the <span style="font-weight:bold">Smart Cities Mission Website</span></span>',
-  '<br>',
-  '<span>Acknowledged by <span style="font-weight:bold">NCIIPC</span> for reporting a vulnerability in the website of the <span style="font-weight:bold">Maharastra Forest Department ', 
-  'Admin Login Webpage</span></span>',
 ];
 
 
@@ -79,11 +73,8 @@ certificates = [
   '<span style="font-weight:bold;font-size:15px">Machine Learning with Python</span>',
   '<span style="">Globsyn</span>',
   '<br>',
-  '<span style="font-weight:bold;font-size:15px">Ethical Hacking and Security Fundamentals</span>',
-  '<span style="">Globsyn</span>',
-  '<br>',
   '<span style="font-weight:bold;font-size:15px">Data Analysis with Python</span>',
-  '<span style="">Fortinet</span>',
+  '<span style="">Globsyn</span>',
   '<br>',
   '<span style="font-weight:bold;font-size:15px">Programming with Python</span>',
   '<span style="">MyWBUT</span>',
@@ -117,7 +108,7 @@ help = [
   '<span class="command">help</span>               Check available commands',
   '<span class="command">history</span>            View command history',
   '<span class="command">linkedin</span>           Open the LinkedIn',
-  // '<span class="command">projects</span>           View coding projects',
+  '<span class="command">projects</span>           View coding projects',
   '<span class="command">repo</span>               Open the source code',
   '<span class="command">social</span>             Display social networks',
   '<span class="command">whoami</span>             About current user',
@@ -131,14 +122,9 @@ projects = [
   '"Actions speak louder than words, demonstrate the implementation."? I got you.',
   'Here are some of my projects!',
   '<br>',
-  '<span style="font-weight:bold;font-size:15px">AutoRecon</span>',
-  '<span style="">A simple tool built using python which performs automated enumeration of services. It is intended as a',
-  'time-saving tool for use in CTFs. It may also be useful in real-world engagements.</span>',
-  '<span>You can check it out <a href="https://github.com/ninja-hattori/AutoRecon">here</a></span>',
-  '<br>',
-  '<span style="font-weight:bold;font-size:15px">DirEnum</span>',
-  '<span style="">A tool built using python to brute force directories and files names on web/application servers.</span>',
-  '<span>You can check it out <a href="https://github.com/ninja-hattori/DirEnum">here</a></span>',
+  '<span style="font-weight:bold;font-size:15px">Terminal Porfolio Website</span>',
+  '<span style="">My portfolio website in terminal version developed just with HTML, CSS and JavaScript. Keyboard shortcuts can be used for some functionalities</span>',
+  '<span>You can check it out <a href="https://github.com/IngeniousMaglev/interactive-terminal">here</a></span>',
 ];
 
 social = [
